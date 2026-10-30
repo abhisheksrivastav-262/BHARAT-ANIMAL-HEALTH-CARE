@@ -215,8 +215,8 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
             <div className="flex items-center justify-center sm:justify-start gap-2 text-xs text-slate-500 pt-1">
               <Phone className="w-3.5 h-3.5 text-emerald-700" />
               <span>Direct Sales Desk: </span>
-              <a href={`tel:${companyData.contact.helplinePhone}`} className="font-bold text-slate-800 hover:underline">
-                {companyData.contact.helplinePhoneDisplay}
+              <a href={`tel:${companyData.contact.mobilePhone}`} className="font-bold text-slate-800 hover:underline">
+                {companyData.contact.mobilePhoneDisplay}
               </a>
             </div>
           </div>

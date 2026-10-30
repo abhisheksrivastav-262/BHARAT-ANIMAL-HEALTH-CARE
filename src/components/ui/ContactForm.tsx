@@ -68,7 +68,7 @@ export default function ContactForm() {
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl font-bold text-white bg-[#25D366] hover:bg-emerald-600 transition-colors shadow-sm text-sm"
             >
               <MessageCircle className="w-4 h-4" />
-              <span>Send via WhatsApp (+91 94845 55525)</span>
+              <span>Send via WhatsApp ({companyData.contact.whatsappPhoneDisplay})</span>
             </a>
 
             <a

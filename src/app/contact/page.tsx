@@ -14,7 +14,7 @@ import {
 export const metadata: Metadata = {
   title: "Contact Us & Factory Location | Navsari, Gujarat",
   description:
-    "Contact Bharat Animal Health Care (BAHC) in Navsari, Gujarat. Official helpline: +91 93222 17177, WhatsApp: +91 94845 55525, Email: info@bahc.in.",
+    "Contact Bharat Animal Health Care (BAHC) in Navsari, Gujarat. Call or WhatsApp: +91 94845 55525, Email: info@bahc.in.",
 };
 
 export default function ContactPage() {
@@ -71,20 +71,20 @@ export default function ContactPage() {
           {/* Card: Direct Telephony & WhatsApp */}
           <div className="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm space-y-4">
             <h3 className="text-sm font-bold text-slate-900 border-b border-slate-100 pb-2">
-              Official Helpline & Desks
+              Phone & Email Contact
             </h3>
 
             <div className="space-y-3 text-xs sm:text-sm">
               <a
-                href={`tel:${companyData.contact.helplinePhone}`}
+                href={`tel:${companyData.contact.mobilePhone}`}
                 className="flex items-center gap-3 text-slate-800 hover:text-emerald-800 transition-colors"
               >
                 <div className="w-9 h-9 rounded-lg bg-emerald-50 text-emerald-800 flex items-center justify-center shrink-0">
                   <Phone className="w-4 h-4" />
                 </div>
                 <div>
-                  <span className="text-[11px] text-slate-500 block">General Helpline:</span>
-                  <span className="font-bold">{companyData.contact.helplinePhoneDisplay}</span>
+                  <span className="text-[11px] text-slate-500 block">Mobile:</span>
+                  <span className="font-bold">{companyData.contact.mobilePhoneDisplay}</span>
                 </div>
               </a>
 

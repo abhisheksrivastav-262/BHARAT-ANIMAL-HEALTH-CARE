@@ -80,7 +80,7 @@ export default function QuoteForm() {
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-bold text-white bg-[#25D366] hover:bg-emerald-600 transition-colors shadow-md text-sm"
             >
               <MessageCircle className="w-5 h-5" />
-              <span>Forward to Sales Desk on WhatsApp (+91 94845 55525)</span>
+              <span>Forward to Sales Desk on WhatsApp ({companyData.contact.whatsappPhoneDisplay})</span>
             </a>
 
             <a

@@ -423,11 +423,11 @@ export default function HomePage() {
               </Link>
 
               <a
-                href={`tel:${companyData.contact.helplinePhone}`}
+                href={`tel:${companyData.contact.mobilePhone}`}
                 className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl font-bold text-white bg-slate-800 hover:bg-slate-700 transition-colors border border-slate-600 text-sm"
               >
                 <Phone className="w-4 h-4 text-emerald-400" />
-                <span>Call Helpline: {companyData.contact.helplinePhoneDisplay}</span>
+                <span>Call: {companyData.contact.mobilePhoneDisplay}</span>
               </a>
 
               <Link

@@ -99,10 +99,10 @@ export default function QuotePage() {
               Speak directly with our commercial coordinator:
             </p>
             <a
-              href={`tel:${companyData.contact.helplinePhone}`}
+              href={`tel:${companyData.contact.mobilePhone}`}
               className="text-sm font-black text-emerald-950 block hover:underline"
             >
-              {companyData.contact.helplinePhoneDisplay}
+              {companyData.contact.mobilePhoneDisplay}
             </a>
           </div>
         </div>

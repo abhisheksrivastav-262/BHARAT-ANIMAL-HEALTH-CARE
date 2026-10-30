@@ -81,7 +81,7 @@ export default function PrivacyPage() {
             Attn: Compliance & Grievance Desk<br />
             233-A, Gamtal, Naranpore, Taluka Chikhli, Navsari, Gujarat - 396040, India<br />
             Email: <a href={`mailto:${companyData.contact.emailPrimary}`} className="text-emerald-800 font-bold">{companyData.contact.emailPrimary}</a><br />
-            Helpline: {companyData.contact.helplinePhoneDisplay}
+            Mobile: {companyData.contact.mobilePhoneDisplay}
           </div>
         </section>
       </div>

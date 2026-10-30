@@ -92,7 +92,7 @@ export const downloadsData: DownloadDoc[] = [
     pageCount: "2 Pages",
     filePath: "/assets/docs/stress-nil-technical-specifications.pdf",
     description:
-      "Certified packaging label specifications containing complete composition, indication matrix, dilution rates, and helpline details for Stress Nil.",
+      "Certified packaging label specifications containing complete composition, indication matrix, dilution rates, and contact details for Stress Nil.",
     verifiedOfficial: true,
   },
 ];

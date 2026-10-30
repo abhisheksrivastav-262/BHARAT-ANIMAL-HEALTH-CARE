@@ -206,11 +206,11 @@ export default function Footer() {
 
             <div className="pt-2 space-y-2 border-t border-slate-800 text-xs">
               <a
-                href={`tel:${companyData.contact.helplinePhone}`}
+                href={`tel:${companyData.contact.mobilePhone}`}
                 className="flex items-center gap-2 text-white hover:text-emerald-400 transition-colors"
               >
                 <Phone className="w-4 h-4 text-emerald-400 shrink-0" />
-                <span>Helpline: {companyData.contact.helplinePhoneDisplay}</span>
+                <span>Mobile: {companyData.contact.mobilePhoneDisplay}</span>
               </a>
 
               <a

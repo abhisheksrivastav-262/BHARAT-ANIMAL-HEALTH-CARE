@@ -117,11 +117,11 @@ export default function FAQPage() {
         </p>
         <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
           <a
-            href={`tel:${companyData.contact.helplinePhone}`}
+            href={`tel:${companyData.contact.mobilePhone}`}
             className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl text-xs font-bold text-white bg-[#0d472a] hover:bg-emerald-900 transition-colors"
           >
             <Phone className="w-3.5 h-3.5" />
-            <span>Call Helpline: {companyData.contact.helplinePhoneDisplay}</span>
+            <span>Call: {companyData.contact.mobilePhoneDisplay}</span>
           </a>
           <a
             href={`https://wa.me/${companyData.contact.whatsappPhone.replace("+", "")}`}

@@ -14,8 +14,8 @@ export interface CompanyInfo {
     validThrough: string;
   };
   contact: {
-    helplinePhone: string;
-    helplinePhoneDisplay: string;
+    mobilePhone: string;
+    mobilePhoneDisplay: string;
     whatsappPhone: string;
     whatsappPhoneDisplay: string;
     emailPrimary: string;
@@ -58,8 +58,8 @@ export const companyData: CompanyInfo = {
     validThrough: "30th September 2028",
   },
   contact: {
-    helplinePhone: "+919322217177",
-    helplinePhoneDisplay: "+91 93222 17177",
+    mobilePhone: "+919484555525",
+    mobilePhoneDisplay: "+91 94845 55525",
     whatsappPhone: "+919484555525",
     whatsappPhoneDisplay: "+91 94845 55525",
     emailPrimary: "info@bahc.in",

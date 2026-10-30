@@ -13,14 +13,14 @@ export default function MobileQuickBar() {
   return (
     <div className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-slate-200/90 shadow-[0_-4px_20px_rgba(0,0,0,0.08)] px-3 py-2">
       <div className="max-w-md mx-auto grid grid-cols-3 gap-2">
-        {/* Call Helpline */}
+        {/* Call mobile */}
         <a
-          href={`tel:${companyData.contact.helplinePhone}`}
+          href={`tel:${companyData.contact.mobilePhone}`}
           className="flex flex-col items-center justify-center py-1.5 px-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 transition-colors text-center active:scale-95"
         >
           <Phone className="w-4 h-4 text-emerald-800 mb-0.5" />
           <span className="text-[11px] font-bold leading-none">Call Now</span>
-          <span className="text-[9px] text-slate-500 scale-90">Helpline</span>
+          <span className="text-[9px] text-slate-500 scale-90">Mobile</span>
         </a>
 
         {/* WhatsApp Inquiry */}

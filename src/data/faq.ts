@@ -51,7 +51,7 @@ export const faqData: FAQItem[] = [
     category: "Dealership & Orders",
     question: "How can I become an authorized distributor or stockist for BAHC?",
     answer:
-      "We partner with reputable veterinary pharmacies, dairy cooperatives, feed dealers, and agricultural retailers across India. You can submit a dealership inquiry directly through our website's Contact / Request a Quote page or call our dedicated Helpline at +91 93222 17177 or message +91 94845 55525. Our commercial team will evaluate your district and territory exclusivity.",
+      "We partner with reputable veterinary pharmacies, dairy cooperatives, feed dealers, and agricultural retailers across India. You can submit a dealership inquiry directly through our website's Contact / Request a Quote page or call or message our team at +91 94845 55525. Our commercial team will evaluate your district and territory exclusivity.",
   },
   {
     category: "Dealership & Orders",

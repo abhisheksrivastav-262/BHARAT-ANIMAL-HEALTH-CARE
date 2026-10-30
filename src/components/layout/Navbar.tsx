@@ -61,12 +61,12 @@ export default function Navbar() {
 
           <div className="flex items-center gap-3 shrink-0">
             <a
-              href={`tel:${companyData.contact.helplinePhone}`}
+              href={`tel:${companyData.contact.mobilePhone}`}
               className="flex items-center gap-1 text-slate-200 hover:text-white transition-colors"
-              title="Call Helpline"
+              title="Call mobile"
             >
               <Phone className="w-3.5 h-3.5 text-emerald-400" />
-              <span className="font-semibold hidden sm:inline">{companyData.contact.helplinePhoneDisplay}</span>
+              <span className="font-semibold hidden sm:inline">{companyData.contact.mobilePhoneDisplay}</span>
             </a>
             <a
               href={`https://wa.me/${companyData.contact.whatsappPhone.replace("+", "")}?text=Hello%20BAHC,%20I%20would%20like%20to%20enquire%20about%20your%20animal%20feed%20products`}
@@ -185,11 +185,11 @@ export default function Navbar() {
 
               <div className="grid grid-cols-2 gap-2">
                 <a
-                  href={`tel:${companyData.contact.helplinePhone}`}
+                  href={`tel:${companyData.contact.mobilePhone}`}
                   className="flex items-center justify-center gap-1.5 py-2.5 px-3 bg-slate-100 rounded-lg text-xs font-semibold text-slate-800"
                 >
                   <Phone className="w-3.5 h-3.5 text-emerald-700" />
-                  <span>Call Helpline</span>
+                  <span>Call mobile</span>
                 </a>
                 <a
                   href={`https://wa.me/${companyData.contact.whatsappPhone.replace("+", "")}?text=Hello%20BAHC,%20I%20would%20like%20to%20enquire%20about%20your%20products`}

@@ -38,12 +38,12 @@ export default function NotFound() {
         </div>
 
         <div className="pt-4 border-t border-slate-100 text-xs text-slate-500">
-          <span>Need immediate assistance? Call Helpline: </span>
+          <span>Need immediate assistance? Call us: </span>
           <a
-            href={`tel:${companyData.contact.helplinePhone}`}
+            href={`tel:${companyData.contact.mobilePhone}`}
             className="font-bold text-emerald-800 hover:underline block pt-0.5"
           >
-            {companyData.contact.helplinePhoneDisplay}
+            {companyData.contact.mobilePhoneDisplay}
           </a>
         </div>
       </div>
